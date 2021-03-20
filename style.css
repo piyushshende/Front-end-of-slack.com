@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6efe8;
+    font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin: 1.3rem 1rem 1.5rem 6.5rem;
+    display: flex;
+    max-width: 100%;
+}
+
+header .first {
+    margin: 1.5rem 1rem 1.5rem 2rem;
+}
+
+.first a:hover {
+    text-decoration: underline;
+}
+
+.sign:hover {
+    text-decoration: underline;
+}
+
+header a {
+    color: black;
+    font-weight: bold;
+}
+
+.first a {
+    margin-right: 2rem;
+}
+
+header .second {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+header img {
+    height: 3rem;
+}
+
+.second a {
+    margin-left: 1rem;
+}
+
+.hero {
+    display: flex;
+    margin: 5rem 2rem 5rem 7rem;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 700px;
+}
+
+.hero p {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+.hero video {
+    margin-top: -0.5rem;
+    margin-right: 20rem;
+    max-width: 100%;
+    display: inline-block;
+    height: 30rem;
+    vertical-align: baseline;
+}
+
+.hero a {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.btn-big {
+    margin-top: 3rem;
+    padding: 20px 40px 20px 40px;
+    border-radius: 0.3rem;
+}
+
+.btn-small {
+    padding: 12px 15px 12px 15px;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.btn-purple-border {
+    border-radius: 0.3rem;
+    border: 1.5px solid #611f69;
+    background-color: #f6efe8;
+    color: #611f69;
+    font-weight: 5rem;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+}
+
+.btn-purple-color {
+    background-color: #611f69;
+    border: 1px solid #611f69;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700px;
+}
+
+.B:hover {
+    border: 2px solid #611f69;
+}
+
+.S:hover {
+    background-color: #4f0e57;
+}
+
+.respnosive {
+    height: auto;
+    max-width: 100%;
+}
